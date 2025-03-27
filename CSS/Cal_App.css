@@ -1,0 +1,185 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(72, 82, 82);
+}
+
+.container {
+  /* border: solid black;  */
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.heading {
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: sandybrown;
+}
+
+.calculater {
+  /* display: grid; */
+  border: solid black;
+  margin-top: 10px;
+  /* padding: 20px; */
+}
+
+.calculater .inputBox {
+  display: grid;
+  /* border: solid black; */
+  padding: 10px;
+}
+
+.calculater .inputBox input {
+  height: 40px;
+  padding: 10px 10px 10px 20px;
+  outline: none;
+}
+
+.calculater .oprations #table {
+  /* border: solid black; */
+  margin: auto;
+  display: grid;
+}
+
+.calculater .oprations #table table,
+tr {
+  /* border: solid black; */
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto auto auto auto auto;
+  /* padding: 5px; */
+  /* width: auto; */
+  /* height: 50px; */
+}
+
+.calculater .oprations #table table,
+td {
+  /* border: solid black; */
+  /* padding: 5px; */
+  align-items: center;
+  text-align: center;
+}
+
+.calculater .oprations #table table,
+td,
+button {
+  /* padding: 5px 10px 5px 10px; */
+  display: grid;
+  padding: 5px 13px 5px 13px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.calculater .oprations #table button:hover {
+  background-color: aquamarine;
+}
+
+#btn-0-0 {
+  background-color: aqua;
+}
+#btn-0-1 {
+  background-color: aqua;
+}
+#btn-0-2 {
+  background-color: aqua;
+}
+#btn-0-3 {
+  background-color: aqua;
+}
+#btn-1-3 {
+  background-color: aqua;
+  font-size: 14px;
+}
+#btn-2-3 {
+  background-color: aqua;
+}
+#btn-3-3 {
+  background-color: aqua;
+}
+#btn-4-3 {
+  background-color: aqua;
+}
+#btn-5-3 {
+  background-color: aqua;
+}
+#btn-6-3 {
+  background-color: aqua;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60%;
+    padding: 15px;
+  }
+
+  .calculater .inputBox input {
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .calculater .oprations #table table {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .calculater .oprations #table table,
+  td,
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .calculater .inputBox input {
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .calculater .oprations #table table,
+  td,
+  button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 95%;
+    padding: 5px;
+  }
+
+  .calculater .inputBox input {
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .calculater .oprations #table table,
+  td,
+  button {
+    padding: 5px;
+    font-size: 12px;
+  }
+}

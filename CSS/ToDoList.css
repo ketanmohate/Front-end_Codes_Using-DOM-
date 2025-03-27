@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(93, 49, 114);
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    background-color: rgb(160, 184, 184);
+    justify-content: center;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.container .heding{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container .list_container{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    /* border: solid; */
+}
+.container .list {
+    /* background-color: aqua; */
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 90px;
+}
+
+.container .list ul{
+    list-style-type: none;
+}
+
+.remove_btn{
+    float: right;
+    color: red;
+    border: none;
+    background-color: rgb(160, 184, 184);
+    margin-top: 3px;
+}
+.remove_btn:hover{
+    cursor: pointer;
+}
+
+.hr{
+    margin: 5px 0px 5px 0px;
+    background-color: black;
+}
+
+#inputBox {
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#btn{
+    border: none;
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: green;
+    color: white;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
+
+.list_text{
+    color: white;
+}

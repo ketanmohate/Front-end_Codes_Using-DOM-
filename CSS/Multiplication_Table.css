@@ -1,0 +1,63 @@
+* {
+  padding: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.contaioner {
+  border: solid black;
+  display: grid;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.contaioner .input {
+  /* border: solid black; */
+  padding: 10px;
+  margin: auto;
+  /* display: grid; */
+}
+
+.contaioner .input #num {
+  width: 200px;
+  height: 30px;
+  padding: 20px;
+  /* outline: none; */
+  border: none;
+  border-radius: 10px;
+}
+
+.contaioner .input :hover {
+  cursor: pointer;
+}
+
+.contaioner .btn {
+  /* border: solid black; */
+  padding: 10px;
+  margin: auto;
+}
+
+.contaioner .btn #btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.contaioner .table {
+  display: grid;
+  /* margin: auto; */
+  /* border: solid black; */
+}
+
+.contaioner .table th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
